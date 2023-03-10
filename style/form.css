@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Lobster&family=Paytone+One&family=Sassy+Frass&family=Ubuntu:wght@300&family=Lobster+Two&family=PT+Sans:ital@0;1&display=swap" rel="stylesheet');
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to left,rgba(247, 53, 247, 0.5),rgba(111, 239, 239, 0.5));
+  }
+  h1 {
+    color: #222;
+    font-family: 'lobster',cursive;
+    text-align: center;
+    margin-top: 65px;
+    font-size: 2.5rem;
+  }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #222;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'kalam';
+    color: #555;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-image:  linear-gradient(to left,rgba(250, 74, 250, 0.5),rgba(131, 245, 245, 0.5));
+  }
+
+  .success{
+    text-align: center;
+    font-family: 'kalam';
+    font-size: 25px;
+  }
